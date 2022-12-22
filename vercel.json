@@ -4,5 +4,9 @@
         "api/app.js": {
             "memory": 1024
         }
-    }
+    },
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "/api/app.js"
+    }]
 }
